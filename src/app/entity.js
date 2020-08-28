@@ -6,5 +6,6 @@ export class Entity {
         this.color = color
         this.width = width
         this.height = height
+        this.r = function () { this.render() }
     }
 }
